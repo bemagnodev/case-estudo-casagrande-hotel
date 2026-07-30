@@ -1,52 +1,73 @@
-# Case de Estudo: Refatoração do Site Casa Grande Hotel & Resort
-![Status](https://img.shields.io/badge/status-finalizado-brightgreen) ![Tecnologia](https://img.shields.io/badge/tecnologia-React-blue)
+# Casa Grande Hotel & Resort — Website Refactoring Case Study
 
----
+![Status](https://img.shields.io/badge/status-completed-brightgreen?style=for-the-badge)
 
-### Acesso
-
-**Site no ar:** [casagrandehotelresort.com.br](https://casagrandehotelresort.com.br/)
-
-### Visão Geral
-Este projeto consistiu na completa refatoração e modernização do site institucional do Casa Grande Hotel & Resort. A migração foi de uma plataforma WordPress para uma aplicação totalmente nova, construída com **React e TypeScript**, com o objetivo de obter uma plataforma mais robusta, performática e de fácil manutenção.
-
-### Nota sobre o Código-Fonte
-Por se tratar de um projeto comercial desenvolvido para um cliente, o código-fonte é de sua propriedade intelectual e não pode ser compartilhado publicamente. Este repositório serve como um "case de estudo" para demonstrar a arquitetura, as tecnologias utilizadas e as funcionalidades que implementei.
-
-### Funcionalidades de Destaque
-* **Arquitetura de Componentes Dinâmicos:** Implementei uma arquitetura de componentes reutilizáveis e "data-driven". Componentes complexos como carrosséis e sistemas de abas foram projetados para renderizar conteúdo dinamicamente a partir de uma fonte de dados centralizada, garantindo consistência e escalabilidade.
-* **Formulários Complexos:** Desenvolvi múltiplos formulários para diferentes fins, como reservas e contato para eventos, garantindo a validação e a usabilidade.
-* **Suporte a Múltiplos Idiomas:** Contribuí para a implementação da funcionalidade de troca de idiomas, um requisito essencial para o público internacional do hotel.
-
-### Tecnologias Utilizadas
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-### Meu Papel e Contribuições
-Apesar de ser um projeto colaborativo, fui o principal desenvolvedor responsável por aproximadamente 80% do frontend. Minhas principais contribuições foram na **arquitetura da componentização**, no **desenvolvimento da grande maioria das mais de 20 páginas** e na garantia de que o **design fosse implementado com fidelidade e total responsividade**.
+---
 
-### Desafios e Aprendizados
-Como meu primeiro projeto React de grande escala, foi uma oportunidade imersiva e de grande aprendizado. O principal desafio foi dominar o **gerenciamento de estado em uma aplicação complexa**, garantindo que componentes como os formulários de reserva e os carrosséis interagissem de forma coesa e performática.
+## Live Website
 
-Este projeto solidificou minhas habilidades em arquitetar aplicações React robustas, organizadas e escaláveis, prontas para um ambiente de produção exigente.
+**Website:** [casagrandehotelresort.com.br](https://casagrandehotelresort.com.br/)
 
-### Demonstração
+## Overview
 
-**Versão Desktop**
+This project consisted of the full refactoring and modernization of the institutional website for Casa Grande Hotel & Resort.
 
-![Demo do Projeto Desktop](./demo-casagrande-desktop.gif)
+The website was migrated from a WordPress-based platform to a new application built with **React and TypeScript**, with the goal of creating a more robust, performant, responsive, and maintainable frontend architecture.
 
-**Versão Mobile**
+## Source Code Notice
+
+Since this was a commercial project developed for a client, the source code is the client's intellectual property and cannot be shared publicly.
+
+This repository serves as a case study to present the project context, the technologies used, the architectural decisions, and the main features I implemented.
+
+## Key Features
+
+- **Dynamic component architecture:** I implemented reusable and data-driven components. Complex elements such as carousels and tab systems were designed to render content dynamically from centralized data sources, improving consistency and scalability.
+- **Complex forms:** I developed multiple forms for different purposes, including reservations and event contact flows, with attention to validation and usability.
+- **Multilingual support:** I contributed to the implementation of language-switching functionality, an important requirement for the hotel's international audience.
+- **Responsive interface:** I worked to ensure that the interface was implemented faithfully to the design and adapted properly across desktop and mobile devices.
+
+## My Role and Contributions
+
+Although this was a collaborative project, I was the main frontend developer, responsible for approximately 80% of the frontend implementation.
+
+My main contributions included:
+
+- designing and implementing the component architecture;
+- developing most of the 20+ pages in the application;
+- building dynamic UI sections such as carousels, tabs, and content blocks;
+- implementing responsive layouts across different screen sizes;
+- contributing to multilingual support;
+- ensuring visual fidelity to the provided design.
+
+## Challenges and Learnings
+
+As my first large-scale React project, this was an immersive learning experience.
+
+The main challenge was managing state and component interactions in a more complex production application, especially in features such as reservation forms, carousels, tabs, and multilingual content.
+
+This project strengthened my ability to build organized, scalable, and production-ready React applications.
+
+## Demonstration
+
+### Desktop Version
+
+![Desktop project demo](./demo-casagrande-desktop.gif)
+
+### Mobile Version
 
 <table align="left" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td>
-      <img src="./print-casagrande-mobile-1.jpg" alt="Demonstração da versão mobile - Tela 1" width="200px"/>
+      <img src="./print-casagrande-mobile-1.jpg" alt="Mobile version screenshot 1" width="200px"/>
     </td>
     <td>
-      <img src="./print-casagrande-mobile-2.jpg" alt="Demonstração da versão mobile - Tela 2" width="200px"/>
+      <img src="./print-casagrande-mobile-2.jpg" alt="Mobile version screenshot 2" width="200px"/>
     </td>
   </tr>
 </table>
